@@ -1,0 +1,14 @@
+[project]
+name = "save-image-callback"
+description = "This node enables integration between ComfyUI and external services by adding callback capabilities to the image saving process. When an image is saved, the node automatically call your webhook with your specified URL with custom data."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/WUYUDING2583/ComfyUI-Save-Image-Callback"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Save-Image-Callback"
+Icon = ""
